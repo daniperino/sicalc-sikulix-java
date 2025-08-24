@@ -1,0 +1,12 @@
+# Dependências externas
+libs/*.jar
+*.class
+bin/
+build/
+out/
+*.log
+*.iml
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
