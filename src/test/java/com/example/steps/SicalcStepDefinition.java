@@ -7,8 +7,6 @@ import io.cucumber.java.an.E;
 import io.cucumber.java.it.Quando;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Dado;
-
-
 import static org.junit.Assert.*;
 
 public class SicalcStepDefinition {
@@ -60,16 +58,58 @@ public class SicalcStepDefinition {
         System.out.println("Passo: 'E' Campo de nome preenchido com: " + nome);
     }
 
-    @Então("o campo de nome deve conter {string}")
-    public void o_campo_de_nome_deve_conter(String nomeEsperado) throws FindFailed {
-        Pattern campoNomeExato = new Pattern(IMG_PATH + "campo-nome-daniella-perino.png");
-        if (tela.exists(campoNomeExato, 10)!= null) {
-            System.out.println("Passo: 'Então' Campo de nome verificado com sucesso: " + nomeEsperado);
-    } else {
-        throw new AssertionError("O campo de nome não contém o texto esperado: " + nomeEsperado);
-    }
+    @Então("deve abrir o modal para {string}")
+    public void deve_abrir_o_modal_para(String modalEsperado) throws FindFailed {
+        Pattern modal = new Pattern(IMG_PATH + "preenchimento-de-darf.png");
+        if (tela.exists(modal, 10) != null) {
+            System.out.println("Passo: 'Então' Modal verificado com sucesso: " + modalEsperado);
+        } else {
+            throw new AssertionError("O modal não foi encontrado: " + modalEsperado);
         }
-    
+    }
+
+    @Dado("que o modal de preenchimento de DARF está aberto")
+    public void que_o_modal_de_preenchimento_de_DARF_está_aberto() throws FindFailed {
+        Pattern modal = new Pattern(IMG_PATH + "preenchimento-de-darf.png");
+        tela.wait(modal, 10);
+        if (tela.exists(modal) != null) {
+            System.out.println("Passo: 'Dado' Modal de preenchimento de DARF está aberto");
+        } else {
+            throw new AssertionError("O modal de preenchimento de DARF não foi encontrado");
+        }
+    }
+
+    @Quando("eu preencho o campo Cod Receita com {string}")
+    public void eu_preencho_o_campo_Cod_Receita_com(String valor) throws FindFailed {
+        Pattern campoPattern = new Pattern(IMG_PATH + "campo-cod-receita.png");
+        tela.wait(campoPattern, 10);
+        tela.type(campoPattern, valor);
+        if (tela.exists(campoPattern, 10) != null) {
+            System.out.println("Passo: 'Quando' Campo Cod Receita preenchido com: " + valor);
+        } else {
+            throw new AssertionError("O campo Cod Receita não foi encontrado");
+        }
+    }
+
+    @E("clico no próximo campo")
+    public void clico_no_próximo_campo() throws FindFailed {
+        Pattern proximoCampo = new Pattern(IMG_PATH + "digitar-nome.png");
+        tela.wait(proximoCampo, 10);
+        tela.click(proximoCampo);
+        System.out.println("Passo: 'E' Próximo campo clicado");
+    }
+
+    @Então("o modal de calculo para pagamento é aberto")
+    public void o_modal_de_calculo_para_pagamento_é_aberto() throws FindFailed {
+        Pattern modalCalculo = new Pattern(IMG_PATH + "modal-para-calculo.png");
+        if (tela.exists(modalCalculo, 10) != null) {
+            System.out.println("Passo: 'Então' Modal de cálculo para pagamento verificado com sucesso");
+        } else {
+            throw new AssertionError("O modal de cálculo para pagamento não foi encontrado");
+        }
+    }
+
+
 }   
 
 

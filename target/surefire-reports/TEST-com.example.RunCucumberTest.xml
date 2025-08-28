@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.RunCucumberTest" time="11.893" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.RunCucumberTest" time="10.765" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire1599484956750404537\surefirebooter-20250825205627509_3.jar C:\Users\DELL\AppData\Local\Temp\surefire1599484956750404537 2025-08-25T20-56-27_196-jvmRun1 surefire-20250825205627509_1tmp surefire_0-20250825205627509_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire8830552209701582075\surefirebooter-20250827215915444_3.jar C:\Users\DELL\AppData\Local\Temp\surefire8830552209701582075 2025-08-27T21-59-15_245-jvmRun1 surefire-20250827215915444_1tmp surefire_0-20250827215915444_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Dani\Java-exercicios\SiCalc\receita-demo\target\test-classes;C:\Dani\Java-exercicios\SiCalc\receita-demo\target\classes;C:\Users\DELL\.m2\repository\com\sikulix\sikulixapi\2.0.5\sikulixapi-2.0.5.jar;C:\Users\DELL\.m2\repository\org\python\jython-slim\2.7.2\jython-slim-2.7.2.jar;C:\Users\DELL\.m2\repository\org\antlr\antlr\3.5.2\antlr-3.5.2.jar;C:\Users\DELL\.m2\repository\org\antlr\ST4\4.0.8\ST4-4.0.8.jar;C:\Users\DELL\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\DELL\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\DELL\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.62\bcpkix-jdk15on-1.62.jar;C:\Users\DELL\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.62\bcprov-jdk15on-1.62.jar;C:\Users\DELL\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\DELL\.m2\repository\org\ow2\asm\asm-commons\7.1\asm-commons-7.1.jar;C:\Users\DELL\.m2\repository\org\ow2\asm\asm-tree\7.1\asm-tree-7.1.jar;C:\Users\DELL\.m2\repository\org\ow2\asm\asm-analysis\7.1\asm-analysis-7.1.jar;C:\Users\DELL\.m2\repository\org\ow2\asm\asm-util\7.1\asm-util-7.1.jar;C:\Users\DELL\.m2\repository\com\google\guava\guava\28.0-android\guava-28.0-android.jar;C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.2\error_prone_annotations-2.3.2.jar;C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\DELL\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\DELL\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\DELL\.m2\repository\com\carrotsearch\java-sizeof\0.0.5\java-sizeof-0.0.5.jar;C:\Users\DELL\.m2\repository\com\github\jnr\jffi\1.2.20\jffi-1.2.20.jar;C:\Users\DELL\.m2\repository\com\github\jnr\jnr-netdb\1.1.6\jnr-netdb-1.1.6.jar;C:\Users\DELL\.m2\repository\com\github\jnr\jnr-ffi\2.1.10\jnr-ffi-2.1.10.jar;C:\Users\DELL\.m2\repository\com\github\jnr\jffi\1.2.19\jffi-1.2.19-native.jar;C:\Users\DELL\.m2\repository\com\github\jnr\jnr-a64asm\1.0.0\jnr-a64asm-1.0.0.jar;C:\Users\DELL\.m2\repository\com\github\jnr\jnr-x86asm\1.0.2\jnr-x86asm-1.0.2.jar;C:\Users\DELL\.m2\repository\com\github\jnr\jnr-posix\3.0.50\jnr-posix-3.0.50.jar;C:\Users\DELL\.m2\repository\com\github\jnr\jnr-constants\0.9.12\jnr-constants-0.9.12.jar;C:\Users\DELL\.m2\repository\jline\jline\2.14.5\jline-2.14.5.jar;C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.45.Final\netty-buffer-4.1.45.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.45.Final\netty-codec-4.1.45.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.45.Final\netty-common-4.1.45.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.45.Final\netty-handler-4.1.45.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.45.Final\netty-resolver-4.1.45.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.45.Final\netty-transport-4.1.45.Final.jar;C:\Users\DELL\.m2\repository\org\apache\ant\ant\1.9.7\ant-1.9.7.jar;C:\Users\DELL\.m2\repository\org\apache\ant\ant-launcher\1.9.7\ant-launcher-1.9.7.jar;C:\Users\DELL\.m2\repository\com\sikulix\sikulix2tigervnc\1.1.4\sikulix2tigervnc-1.1.4.jar;C:\Users\DELL\.m2\repository\org\openpnp\opencv\4.3.0-3\opencv-4.3.0-3.jar;C:\Users\DELL\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\DELL\.m2\repository\net\java\dev\jna\jna-platform\5.6.0\jna-platform-5.6.0.jar;C:\Users\DELL\.m2\repository\net\java\dev\jna\jna\5.6.0\jna-5.6.0.jar;C:\Users\DELL\.m2\repository\net\oneandone\reflections8\reflections8\0.11.6\reflections8-0.11.6.jar;C:\Users\DELL\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\DELL\.m2\repository\net\sourceforge\tess4j\tess4j\4.5.4\tess4j-4.5.4.jar;C:\Users\DELL\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\DELL\.m2\repository\org\ghost4j\ghost4j\1.0.1\ghost4j-1.0.1.jar;C:\Users\DELL\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\DELL\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\DELL\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\DELL\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.4\xmlgraphics-commons-1.4.jar;C:\Users\DELL\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\Users\DELL\.m2\repository\org\apache\pdfbox\pdfbox\2.0.21\pdfbox-2.0.21.jar;C:\Users\DELL\.m2\repository\org\apache\pdfbox\fontbox\2.0.21\fontbox-2.0.21.jar;C:\Users\DELL\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\DELL\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.21\pdfbox-tools-2.0.21.jar;C:\Users\DELL\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.21\pdfbox-debugger-2.0.21.jar;C:\Users\DELL\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.3\jbig2-imageio-3.0.3.jar;C:\Users\DELL\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\DELL\.m2\repository\net\sourceforge\lept4j\lept4j\1.13.2\lept4j-1.13.2.jar;C:\Users\DELL\.m2\repository\org\jboss\jboss-vfs\3.2.15.Final\jboss-vfs-3.2.15.Final.jar;C:\Users\DELL\.m2\repository\org\jboss\logging\jboss-logging\3.1.4.GA\jboss-logging-3.1.4.GA.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-nop\1.7.28\slf4j-nop-1.7.28.jar;C:\Users\DELL\.m2\repository\net\sf\py4j\py4j\0.10.9.1\py4j-0.10.9.1.jar;C:\Users\DELL\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\DELL\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\DELL\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\DELL\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\DELL\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;C:\Users\DELL\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire1599484956750404537\surefirebooter-20250825205627509_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire8830552209701582075\surefirebooter-20250827215915444_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+8"/>
@@ -58,29 +58,43 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Preencher um DARF com sucesso" classname="de DARF no Sicalc" time="10.714">
+  <testcase name="Abrir modal de DARF com sucesso" classname="Preenchimento de DARF" time="7.431">
     <system-out><![CDATA[
 @darf
-CenÃ¡rio: Preencher um DARF com sucesso                &amp#27;[90m# src/test/resources/features/preencherDarf.feature:5&amp#27;[0m
+CenÃ¡rio: Abrir modal de DARF com sucesso                &amp#27;[90m# src/test/resources/features/preencherDarf.feature:5&amp#27;[0m
 Iniciando um novo cenário de teste e preparando a tela
-[log] CLICK on L[650,743]@S(0) (611 msec)
+[log] CLICK on L[650,743]@S(0) (580 msec)
 Passo: 'Dado' Tela inicial do Sicalc exibida
-  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque a tela inicial do Sicalc Ã© exibida&amp#27;[0m         &amp#27;[90m# com.example.steps.SicalcStepDefinition.que_a_tela_inicial_do_Sicalc_Ã©_exibida()&amp#27;[0m
-[log] CLICK on L[686,475]@S(0) (573 msec)
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque a tela inicial do Sicalc Ã© exibida&amp#27;[0m           &amp#27;[90m# com.example.steps.SicalcStepDefinition.que_a_tela_inicial_do_Sicalc_Ã©_exibida()&amp#27;[0m
+[log] CLICK on L[686,471]@S(0) (570 msec)
 Passo: 'Quando' Botão de continuar clicado
-  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu clico no botÃ£o de continuar&amp#27;[0m               &amp#27;[90m# com.example.steps.SicalcStepDefinition.eu_clico_no_botÃ£o_de_continuar()&amp#27;[0m
-[log] CLICK on L[131,39]@S(0) (566 msec)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu clico no botÃ£o de continuar&amp#27;[0m                 &amp#27;[90m# com.example.steps.SicalcStepDefinition.eu_clico_no_botÃ£o_de_continuar()&amp#27;[0m
+[log] CLICK on L[131,39]@S(0) (574 msec)
 Passo: 'E' Menu de funções clicado
-  &amp#27;[32mE &amp#27;[0m&amp#27;[32mclico no menu de funÃ§Ãµes&amp#27;[0m                          &amp#27;[90m# com.example.steps.SicalcStepDefinition.clico_no_menu_de_funÃ§Ãµes()&amp#27;[0m
-[log] CLICK on L[244,75]@S(0) (561 msec)
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mclico no menu de funÃ§Ãµes&amp#27;[0m                            &amp#27;[90m# com.example.steps.SicalcStepDefinition.clico_no_menu_de_funÃ§Ãµes()&amp#27;[0m
+[log] CLICK on L[244,75]@S(0) (574 msec)
 Passo: 'E' Opção de preenchimento de DARF selecionada
-  &amp#27;[32mE &amp#27;[0m&amp#27;[32mseleciono a opÃ§Ã£o de preenchimento de DARF&amp#27;[0m        &amp#27;[90m# com.example.steps.SicalcStepDefinition.seleciono_a_opÃ§Ã£o_de_preenchimento_de_DARF()&amp#27;[0m
-[log] CLICK on L[489,232]@S(0) (567 msec)
-[log]  TYPE "Daniella Perino"
-Passo: 'E' Campo de nome preenchido com: Daniella Perino
-  &amp#27;[32mE &amp#27;[0m&amp#27;[32mpreencho o nome com &amp#27;[0m&amp#27;[32m&amp#27;[1m"Daniella Perino"&amp#27;[0m             &amp#27;[90m# com.example.steps.SicalcStepDefinition.preencho_o_nome_com(java.lang.String)&amp#27;[0m
-Passo: 'Então' Campo de nome verificado com sucesso: Daniella Perino
-  &amp#27;[32mEntÃ£o &amp#27;[0m&amp#27;[32mo campo de nome deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"Daniella Perino"&amp#27;[0m &amp#27;[90m# com.example.steps.SicalcStepDefinition.o_campo_de_nome_deve_conter(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mseleciono a opÃ§Ã£o de preenchimento de DARF&amp#27;[0m          &amp#27;[90m# com.example.steps.SicalcStepDefinition.seleciono_a_opÃ§Ã£o_de_preenchimento_de_DARF()&amp#27;[0m
+Passo: 'Então' Modal verificado com sucesso: Preenchimento de DARF
+  &amp#27;[32mEntÃ£o &amp#27;[0m&amp#27;[32mdeve abrir o modal para &amp#27;[0m&amp#27;[32m&amp#27;[1m"Preenchimento de DARF"&amp#27;[0m &amp#27;[90m# com.example.steps.SicalcStepDefinition.deve_abrir_o_modal_para(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Preencher o código da receita de Darf com sucesso" classname="Preenchimento de DARF" time="2.67">
+    <system-out><![CDATA[
+@darf
+CenÃ¡rio: Preencher o cÃ³digo da receita de Darf com sucesso &amp#27;[90m# src/test/resources/features/preencherDarf.feature:13&amp#27;[0m
+Iniciando um novo cenário de teste e preparando a tela
+Passo: 'Dado' Modal de preenchimento de DARF está aberto
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o modal de preenchimento de DARF estÃ¡ aberto&amp#27;[0m    &amp#27;[90m# com.example.steps.SicalcStepDefinition.que_o_modal_de_preenchimento_de_DARF_estÃ¡_aberto()&amp#27;[0m
+[log] CLICK on L[947,281]@S(0) (579 msec)
+[log]  TYPE "5629"
+Passo: 'Quando' Campo Cod Receita preenchido com: 5629
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu preencho o campo Cod Receita com &amp#27;[0m&amp#27;[32m&amp#27;[1m"5629"&amp#27;[0m        &amp#27;[90m# com.example.steps.SicalcStepDefinition.eu_preencho_o_campo_Cod_Receita_com(java.lang.String)&amp#27;[0m
+[log] CLICK on L[489,232]@S(0) (560 msec)
+Passo: 'E' Próximo campo clicado
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mclico no prÃ³ximo campo&amp#27;[0m                                 &amp#27;[90m# com.example.steps.SicalcStepDefinition.clico_no_prÃ³ximo_campo()&amp#27;[0m
+Passo: 'Então' Modal de cálculo para pagamento verificado com sucesso
+  &amp#27;[32mEntÃ£o &amp#27;[0m&amp#27;[32mo modal de calculo para pagamento Ã© aberto&amp#27;[0m         &amp#27;[90m# com.example.steps.SicalcStepDefinition.o_modal_de_calculo_para_pagamento_Ã©_aberto()&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>

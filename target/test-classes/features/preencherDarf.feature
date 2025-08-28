@@ -1,11 +1,17 @@
 # language: pt
 @darf
-Funcionalidade:  de DARF no Sicalc
+Funcionalidade:  Preenchimento de DARF
 
-  Cenário: Preencher um DARF com sucesso
+  Cenário: Abrir modal de DARF com sucesso
     Dado que a tela inicial do Sicalc é exibida
     Quando eu clico no botão de continuar
     E clico no menu de funções
     E seleciono a opção de preenchimento de DARF
-    E preencho o nome com "Daniella Perino"
-    Então o campo de nome deve conter "Daniella Perino"
+    Então deve abrir o modal para "Preenchimento de DARF"
+
+
+  Cenário: Preencher o código da receita de Darf com sucesso
+    Dado que o modal de preenchimento de DARF está aberto
+    Quando eu preencho o campo Cod Receita com "5629"
+    E clico no próximo campo
+    Então o modal de calculo para pagamento é aberto
